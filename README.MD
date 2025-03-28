@@ -11,22 +11,38 @@
 
 A React Framework for building internal tools, admin panels, dashboards & B2B apps with unmatched flexibility ✨
 
-## Available Scripts
-
-### Running the development server.
+# Clone Repository
 
 ```bash
+git clone https://github.com/thiennguyen93/red-assignement-fe
+cd red-assignement-fe
+```
+
+## Environment variable
+
+Create a `.env` file in the root folder with the following content:
+
+```
+VITE_API_BASE_URL=http://localhost:3000
+```
+
+### Important Note
+
+Ensure that the `.env` file is correctly created in the root folder with the required environment variable. This step is crucial for the application to function properly.
+
+## Running the development server.
+
+```bash
+    npm i
     npm run dev
 ```
 
-### Building for production.
+## Health Check
 
-```bash
-    npm run build
+After starting the development server, open your browser and navigate to the following URL:
+
+```
+http://localhost:5173
 ```
 
-### Running the production server.
-
-```bash
-    npm run start
-```
+The default port for the application is `5173`.
